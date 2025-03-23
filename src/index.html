@@ -10,7 +10,7 @@
 
 <body>
     <nav class="w-[100%] bg-[#FCFCFC] pb-[20px]">
-        <section class="w-[95%] m-auto flex items-center justify-between py-[20px]">
+        <section class="w-[90%] m-auto flex items-center justify-between py-[20px] md:w-[95%]">
             <img src="logo.png" alt="" class="w-[50%] md:w-[20%]">
             <div class="hidden md:flex w-[78%] justify-between items-center">
                 <div>
@@ -85,6 +85,29 @@
             </div>
         </section>
     </nav>
+    <section class="w-[100%] bg-[#F0F6F9] flex items-center justify-between pl-[20px]">
+        <article class="relative z-[1] mt-[-20px]">
+            <div class="flex items-center gap-[10px]">
+                <p class="underline">Главная</p>
+                <p>/</p>
+                <p class="text-[#35353599]">Отзывы</p>
+            </div>
+            <p class="text-[#141414] text-[44px] font-bold mt-[20px]">Отзывы</p>
+            <div class="hidden md:flex items-center gap-[20px] mt-[10px]">
+                <button class="text-white bg-[#00C6BF] py-[15px] px-[50px] rounded-[5px]">Оставить отзыв</button>
+                <button class="bg-[#E3EFF5] p-[15px] flex items-center gap-[80px] rounded-[5px]">Специализация врача<img
+                        src="BigArrowDown.png" alt=""> </button>
+            </div>
+        </article>
+        <img src="doctor.png" alt="" class="relative z-0 ml-[-15%]">
+    </section>
+    <section class="w-[90%] m-auto md:hidden">
+        <div class="flex flex-col gap-[10px] mt-[20px]">
+            <button class="text-white bg-[#00C6BF] py-[20px] px-[50px] rounded-[5px]">Оставить отзыв</button>
+            <button class="bg-[#E3EFF5] py-[20px] px-[25px] flex items-center justify-between rounded-[5px]">Специализация врача<img
+                    src="BigArrowDown.png" alt=""> </button>
+        </div>
+    </section>
 </body>
 
 </html>
